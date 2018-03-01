@@ -12,7 +12,7 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-def speak_to_grandma(string = "HUH?! SPEAK UP, SONNY!")
+def speak_to_grandma
   if string = "Hi Nana, how are you?" || "Hi"
     puts string.uppercase
   elsif string = "I LOVE YOU GRANDMA!"
