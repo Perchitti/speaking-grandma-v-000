@@ -14,7 +14,7 @@
 
 string = "HUH?! SPEAK UP, SONNY!"
 
-def speak_to_grandma
+def speak_to_grandma(phrase = "HUH?! SPEAK UP, SONNY!")
   if string = "Hi Nana, how are you?" || "Hi"
     puts string.uppercase
   elsif string = "I LOVE YOU GRANDMA!"
