@@ -14,11 +14,9 @@
 
 
 def speak_to_grandma(phrase)
-  if phrase = "Hi Nana, how are you?" || "Hi"
-    puts phrase.uppercase
-  elsif phrase = "I LOVE YOU GRANDMA!"
+  if phrase != phrase.uppercase
+    puts "HUH?! SPEAK UP, SONNY!"
+  else phrase = "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
-  else
-    return phrase
   end
 end
