@@ -14,7 +14,7 @@
 
 def speak_to_grandma(string = "HUH?! SPEAK UP, SONNY!")
   if string = "Hi Nana, how are you?" || "Hi"
-    puts string
+   string
   elsif string = "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
   end
