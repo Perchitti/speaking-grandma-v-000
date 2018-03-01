@@ -17,5 +17,7 @@ def speak_to_grandma(string = "HUH?! SPEAK UP, SONNY!")
     puts string.uppercase
   elsif string = "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
+  else
+    return string
   end
 end
