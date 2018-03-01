@@ -13,9 +13,9 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(string)
-  if string == "Hi Nana, how are you?" || "Hi"
+  if string = "Hi Nana, how are you?" || "Hi"
     puts "HUH?! SPEAK UP, SONNY!"
-  elsif string == "I LOVE YOU GRANDMA!"
+  elsif string = "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
   end
 end
